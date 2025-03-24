@@ -37,7 +37,7 @@ public class CoursesController {
         }
     }
 
-    @GetMapping("/search")
+    @GetMapping("/")
     public ResponseEntity<?> getCourseByNameOrCategory(
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String category

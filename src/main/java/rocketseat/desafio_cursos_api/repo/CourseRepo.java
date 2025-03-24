@@ -11,5 +11,5 @@ public interface CourseRepo extends JpaRepository<Course, UUID> {
 
     public List<Course> findCourseByName(String name);
     public List<Course> findCourseByCategory(String category);
-
+    Optional<Course> findCourseById(UUID id);
 }

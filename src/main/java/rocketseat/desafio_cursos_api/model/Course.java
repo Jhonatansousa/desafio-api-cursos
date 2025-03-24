@@ -64,7 +64,7 @@ public class Course {
         this.category = category;
     }
 
-    public ActiveStatus isActive() {
+    public ActiveStatus getStatus() {
         return active;
     }
 
